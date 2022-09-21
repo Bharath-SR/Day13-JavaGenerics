@@ -9,8 +9,8 @@ package com.bridgeLabz;
  */
 public class MaxIntNum {
 
-	    public static void maxNumber(Float a, Float b, Float c) {
-	    	  Float max = a;
+	    public static void maxString(String a, String b, String c) {
+	    	  String max = a;
 		      
 		        if(b.compareTo(a)>0){
 		            max = b;
@@ -22,8 +22,8 @@ public class MaxIntNum {
 		    }
 	public static void main(String[] args) {
 		// DrivingClass
-		Float a = 10.2f, b = 15.98f, c =105.8f;
-	    maxNumber (a,b,c); 
+		String a = "Apple", b = "peach", c ="banana";
+		maxString (a,b,c); 
 	}
 
 }
