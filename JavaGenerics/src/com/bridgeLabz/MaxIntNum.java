@@ -9,23 +9,21 @@ package com.bridgeLabz;
  */
 public class MaxIntNum {
 
-	    public static void maxNumber(Integer a, Integer b, Integer c) {
-	        Integer max = a;
-	      
-	        if(b.compareTo(a)>0){
-	            max = b;
-	        }
-	        if(c.compareTo(max)>0){
-	            max = c;
-	        }
-	        System.out.println("Maximum Number is = "+max);
-	    }
-	 
+	    public static void maxNumber(Float a, Float b, Float c) {
+	    	  Float max = a;
+		      
+		        if(b.compareTo(a)>0){
+		            max = b;
+		        }
+		        if(c.compareTo(max)>0){
+		            max = c;
+		        }
+		        System.out.println("Maximum Number is = "+max);
+		    }
 	public static void main(String[] args) {
 		// DrivingClass
-		 Integer a = 70, b = 10, c =200;
-		 maxNumber (a,b,c); 
-
+		Float a = 10.2f, b = 15.98f, c =105.8f;
+	    maxNumber (a,b,c); 
 	}
 
 }
